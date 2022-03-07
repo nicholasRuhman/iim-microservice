@@ -11,3 +11,9 @@ How to run
 3. run the following command in terminal: python manage.py runserver
 4. navigate to http://<server_ip>:<server_port>/api/vocab/ to access vocab endpoints
 5. navigate to http://<server_ip>:<server_port>/api/prediction/ to access prediction endpoint
+
+Assumptions
+1. Made simple assumption that all puncuation except # should be ignored. 
+   This made it easier to validate things like "#word,", "#word.", etc. but
+   also has issues with potentially invalid vocab being validated. (e.g. "#w,or,d" would be considered valid).
+2. Made assumption that vocab words cannot be string.empty or "\s\n\t"
