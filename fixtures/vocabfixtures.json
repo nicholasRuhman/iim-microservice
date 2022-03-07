@@ -1,0 +1,23 @@
+[
+  {
+    "model":"vocab.Vocab",
+    "pk": 1,
+    "fields": {
+      "vocab": "#ad"
+    }
+  },
+  {
+    "model":"vocab.Vocab",
+    "pk": 2,
+    "fields": {
+      "vocab": "#sponsored"
+    }
+  },
+  {
+    "model":"vocab.Vocab",
+    "pk": 3,
+    "fields": {
+      "vocab": "advertisement"
+    }
+  }
+]
